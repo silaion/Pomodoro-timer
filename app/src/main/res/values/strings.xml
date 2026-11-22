@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Pomodoro-timer</string>
+
+    <!-- 세션 이름 -->
+    <string name="phase_focus">집중 시간</string>
+    <string name="phase_short_break">짧은 휴식</string>
+    <string name="phase_long_break">긴 휴식</string>
+
+    <!-- 포그라운드 서비스 알림 -->
+
+    <string name="notification_channel_timer_name">타이머 진행 알림</string>
+    <string name="notification_channel_timer_description">백그라운드에서 포모도로 타이머가 동작할 때 남은 시간을 표시합니다.</string>
+    <string name="notification_timer_running">%1$s 남음</string> <!-- %1$a는 코드에서 "23:59" 같은 글자를 끼워 넣을 자리 표시자 -->
+    <string name="notification_timer_paused">일시정지됨 (%1$s)</string>
+    <string name="notification_timer_idle">시작 대기 중 (%1$s)</string>
 </resources>
