@@ -6,10 +6,10 @@ android {
     namespace = "com.example.pomodoro_timer"
     compileSdk {
         version = release(37)
+    }
 
-        buildFeatures {
-            viewBinding = true
-        }
+    buildFeatures {
+        viewBinding = true
     }
 
     defaultConfig {
